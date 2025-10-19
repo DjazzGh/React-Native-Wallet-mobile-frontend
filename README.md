@@ -2,13 +2,13 @@
 
 A mobile wallet application built with React Native and Expo that allows users to manage their finances, track transactions, and monitor their balance.
 
-## 📱 Live Demo
+## 📱 Live Demo Video
 
-[Coming Soon](#) - Live demo link will be added here once deployed.
+[Watch the live app](https://drive.google.com/file/d/1bV5ymKcjmM1jvFVYztmN26wBsSrBw_aQ/view?usp=sharing) - 
 
 ## 🔗 Related Repositories
 
-- [Backend Repository](#) - Link to the backend repository will be added here.
+- [Backend Repository](https://github.com/DjazzGh/React_Native_Wallet) - Link to the backend repository will be added here.
 
 ## ✨ Features
 
