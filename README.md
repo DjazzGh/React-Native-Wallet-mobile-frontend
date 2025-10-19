@@ -1,50 +1,94 @@
-# Welcome to your Expo app 👋
+# React Native Wallet App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile wallet application built with React Native and Expo that allows users to manage their finances, track transactions, and monitor their balance.
 
-## Get started
+## 📱 Live Demo
 
-1. Install dependencies
+[Coming Soon](#) - Live demo link will be added here once deployed.
 
+## 🔗 Related Repositories
+
+- [Backend Repository](#) - Link to the backend repository will be added here.
+
+## ✨ Features
+
+- User authentication and account management
+- Real-time balance tracking
+- Transaction history with detailed information
+- Secure financial data handling
+- Modern and intuitive UI design
+
+## 📋 Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+- Expo CLI
+- iOS Simulator or Android Emulator (optional for local testing)
+
+## 🚀 Getting Started
+
+1. Clone the repository
    ```bash
-   npm install
+   git clone <repository-url>
+   cd mobile
    ```
 
-2. Start the app
+2. Install dependencies
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
+3. Set up environment variables
+   - Create a `.env` file in the root directory based on the `.env.example` template
+   - Fill in the required API endpoints and credentials
+
+4. Start the development server
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+5. Run on your preferred platform
+   - Press `i` for iOS simulator
+   - Press `a` for Android emulator
+   - Scan the QR code with Expo Go app on your physical device
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 📁 Project Structure
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+```
+mobile/
+├── app/                 # Main application code
+│   ├── (auth)/          # Authentication screens
+│   ├── (root)/          # Main app screens
+│   └── _layout.jsx      # App layout configuration
+├── assets/              # Static assets like images and styles
+├── components/          # Reusable UI components
+├── constants/           # App constants and configuration
+├── hooks/               # Custom React hooks
+└── lib/                 # Utility functions and helpers
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🛠️ Technologies Used
 
-## Learn more
+- [React Native](https://reactnative.dev/) - Mobile app framework
+- [Expo](https://expo.dev/) - React Native toolchain
+- [Expo Router](https://docs.expo.dev/router/introduction/) - File-based routing for Expo
 
-To learn more about developing your project with Expo, look at the following resources:
+## 🤝 Contributing
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-## Join the community
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-Join our community of developers creating universal apps.
+## 📄 License
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## 📞 Contact
+
+Project Link: [https://github.com/yourusername/react-native-wallet](https://github.com/yourusername/react-native-wallet)
